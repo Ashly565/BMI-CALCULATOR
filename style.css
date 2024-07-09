@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:wheat ;
+    display: grid;
+    place-items: center;
+}
+#container{
+    height: 360px;
+    width: 360px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid white;
+    padding: 5px;
+
+    
+    
+}
+h1{
+    margin-top: 25px;
+    color: brown;
+}
+#btn{
+    padding: 8px;
+    width: 30%;
+    background-color: wheat;
+    border-radius: 5px;
+    
+}
+.input1{
+    font-size: 18px;
+}
+#weight-input{
+    padding: 4px;
+    margin-left: 5px;
+}
+#height-input{
+    padding: 4px;
+    margin-left: 5px
+}
+#hlt-output{
+    padding: 4px;
+    margin-left: 5px
+    
+}
+#bmi-output{
+    padding: 4px;
+    margin-left: 5px
+}
+#hltlabel{
+margin-left: 58px;
+}
+#bmilabel{
+    margin-left: 50px;
+}
